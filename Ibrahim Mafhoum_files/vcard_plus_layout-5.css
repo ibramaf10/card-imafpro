@@ -1,0 +1,338 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.position-absolute {
+	position: absolute;
+}
+.position-relative {
+	position: relative;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.overflow-x-hidden {
+	overflow-x: hidden;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.content {
+	margin: auto;
+	max-width: 100%;
+	min-height: calc(100vh - 60px);
+}
+
+.container {
+	min-width: 100%;
+	height: calc(100vh - 42px);
+	top: 0px;
+	max-width: 500px;
+}
+
+.ellipse {
+	width: 148vw;
+	height: 220px;
+	top: -80px;
+	left: -64px;
+	border-radius: 50%;
+}
+
+.contacts-container {
+	margin: 0px 26px;
+	width: 80%;
+	margin-bottom: 40px;
+}
+
+.btn-container {
+	width: -webkit-fill-available;
+	height: 60px;
+	opacity: 1;
+	position: fixed;
+	bottom: 0;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.footer-container {
+	margin-bottom: 80px;
+}
+
+@media only screen and (min-width: 300px) {
+	.ellipse {
+		width: 141vw;
+	}
+
+	.contacts-container {
+		margin: 0px 38px;
+		width: 75%;
+	}
+}
+
+@media only screen and (min-width: 350px) {
+	.ellipse {
+		width: 135vw;
+	}
+	.contacts-container {
+		margin: 0px 28px;
+		width: 82%;
+	}
+}
+
+@media only screen and (min-width: 400px) {
+	.ellipse {
+		width: 130vw;
+	}
+	.contacts-container {
+		margin: 30px;
+		width: 85%;
+	}
+}
+
+@media only screen and (min-width: 450px) {
+	.content {
+		max-width: 450px;
+	}
+
+	.container {
+		min-width: 450px;
+	}
+
+	.ellipse {
+		width: 620px;
+	}
+
+	.contacts-container {
+		margin: 10px 40px;
+	}
+
+	.btn-container {
+		width: 390px;
+	}
+}
+
+.logo {
+	padding-top: 104px;
+	padding-left: 86px;
+	height: 40px;
+	max-width: 100px;
+}
+
+.profile {
+	width: 150px;
+	height: 150px;
+	top: 1rem;
+	border-top-left-radius: 106px;
+	border-top-right-radius: 106px;
+	border-bottom-left-radius: 106px;
+	border-bottom-right-radius: 106px;
+	border: 2px solid rgba(255, 255, 255, 1);
+	box-shadow: 0px 2px 8px rgba(0.5058823823928833, 0.5176470875740051, 0.5333333611488342, 0.15000000596046448);
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.user-image {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.word-break {
+	word-break: break-all;
+}
+
+.user-name {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 1;
+	word-break: break-word;
+	text-align: center;
+}
+
+.pronunciation {
+	font-style: italic;
+	font-weight: 400;
+	opacity: 0.4;
+}
+
+.user-name-container {
+	top: 10rem;
+	width: 100%;
+}
+
+.pl-4 {
+	padding-left: 4px;
+}
+
+.pl-20 {
+	padding-left: 20px;
+}
+
+.pl-12 {
+	padding-left: 12px;
+}
+
+.mt-0 {
+	margin-top: 0px;
+}
+
+.mt-5 {
+	margin-top: 5px;
+}
+
+.mb-0 {
+	margin-bottom: 0px;
+}
+
+.pt-12 {
+	padding-top: 12px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.user-designation {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1;
+	text-align: center;
+	color: #1d2535;
+	opacity: 0.7;
+}
+.company {
+	font-size: 20px;
+}
+
+.opacity-1 {
+	opacity: 1;
+}
+
+.summary-container {
+	justify-content: flex-start;
+	position: relative;
+}
+
+.summary {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.2;
+	text-align: center;
+	color: #1d2535;
+	padding: 0px 26px;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 18px;
+	color: #1d2535;
+	word-break: break-word;
+}
+
+.sub-title {
+	margin-top: 2px;
+	margin-bottom: 1px;
+	font-weight: 400;
+	font-size: 14px;
+	color: #1d2535;
+	opacity: 0.4;
+}
+
+.social-heading {
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	color: #232f3e;
+	opacity: 0.5;
+}
+
+.svg-container {
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.grid-layout {
+	display: grid;
+	margin-top: 24px;
+	grid-template-columns: auto auto auto auto;
+	justify-content: center;
+}
+
+.social-logo {
+	height: 3rem;
+}
+
+.btn-contact {
+	width: -webkit-fill-available;
+	color: white;
+}
+
+.grid-item{
+	padding: 0px 10px;
+}
+
+.contact-image {
+	height: 45px;
+}
+
+#floatingButton {
+	display: block;
+	position: fixed; /* Fixed/sticky position */
+	bottom: 60px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	outline: none; /* Remove outline */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	border-radius: 50%;
+	border: none;
+	max-width: 60px;
+	box-shadow: 2px 3px 20px 3px #ccc;
+}
+
+.logo-layout {
+	height: 101px;
+	width: 100%;
+}
+
+#leadModalBtn {
+	width: -webkit-fill-available; 
+	height: 60px;
+	margin: 30px;
+	border-radius: 2px; 
+	font-size: 18px; 
+	font-weight: 600; 
+	cursor: pointer;
+}
+
+@media only screen and (min-width: 355px) and (max-width: 450px) {
+	.title {
+		font-size: 3.35vw !important;
+	}
+}
+
+@media only screen and (max-width: 355px) {
+	.title {
+		font-size: 14px !important;
+	}
+}

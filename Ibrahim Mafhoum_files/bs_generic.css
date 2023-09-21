@@ -1,0 +1,67 @@
+.bs-align-center {
+    display: block;
+    text-align: center;
+}
+
+.bs-align-left {
+    display: block;
+    text-align: left;
+}
+
+.bs-align-right {
+    display: block;
+    text-align: right;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+}
+
+.branding-container {
+    font-family: inherit;
+    padding: 10px 0;
+    box-shadow: -1px -1px 5px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.wallet-save-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fr-view img.fr-dii {
+    margin: 0;
+    max-width: 100%;
+}
+
+
+.content-overlay {
+    filter: brightness(0.3) blur(4px);
+}
+
+.disable-scroll {
+    overflow: hidden;
+}
+
+
+/* Bootstrap temporary fix  */
+
+*,
+*::before,
+*::after {
+  box-sizing: unset;
+}
+
+p {
+  margin-top: revert;
+  margin-bottom: revert;
+}
